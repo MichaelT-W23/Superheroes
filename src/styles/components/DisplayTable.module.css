@@ -1,0 +1,72 @@
+.table-container {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1300px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #00008D;
+  color: white;
+  text-align: left;
+}
+
+.header-cell {
+  padding: 16px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cell {
+  padding: 16px 20px;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.actions-cell {
+  padding: 12px;
+  text-align: center;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-btn:hover {
+  background-color: #b80d0d;
+}
+
+.remove-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.5);
+}
+

@@ -1,0 +1,52 @@
+.superhero-power-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.superhero-power-container > * {
+  margin-bottom: 20px;
+}
+
+.power-selector {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: -5px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.power-selector:focus {
+  border-color: #007bff;
+}
+
+.option-text {
+  font-size: 16px;
+}
+
+.powers-page {
+  padding: 20px;
+}
+
+.powers-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.selected-power {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+  

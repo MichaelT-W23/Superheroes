@@ -1,0 +1,97 @@
+.character-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 8px;
+  background-color: #BCEEFF;
+  color: black;
+}
+
+.content-container {
+  background-color: #BCEEFF;
+  padding: 20px;
+  border-radius: 20px;
+  border: 0.75px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: #BCEEFF;
+  margin-bottom: 5px;
+}
+
+.green-button, .red-button, .blue-button, .purple-button {
+  width: 170px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.green-button {
+  background-color: #00B300;
+}
+
+.green-button:hover {
+  background-color: darkgreen;
+}
+
+.red-button {
+  background-color: red;
+}
+
+.red-button:hover {
+  background-color: darkred;
+}
+
+.blue-button {
+  background-color: #155CFF;
+}
+
+.blue-button:hover {
+  background-color: darkblue;
+}
+
+.purple-button {
+  background-color: purple;
+}
+
+.purple-button:hover {
+  background-color: #540054;
+}
+
+.remove-db-button {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600px;
+  color: red;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+}
+
+.remove-db-button:hover {
+  color: darkred;
+}

@@ -1,0 +1,89 @@
+.outside-container {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.field-wrapper {
+  padding: 7px 0;
+  background-color: lightblue;
+}
+  
+.add-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+  background-color: lightblue;
+}
+  
+.add-field-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: black;
+  background-color: lightblue;
+}
+  
+.add-field-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.power-container {
+  background-color: lightblue;
+}
+
+.file-input {
+  background-color: lightblue;
+  padding-bottom: 10px;
+}
+  
+.add-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-submit-button:disabled {
+  background-color: #ccc;
+}
+
+.add-submit-button:hover:enabled {
+  background-color: #0056b3;
+}
+
+
+.error-border {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}

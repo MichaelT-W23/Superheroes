@@ -1,0 +1,36 @@
+{
+    "Powers": [
+        {
+            "powerId": 1, 
+            "name": "Fly"
+        },
+        {
+            "powerId": 2, 
+            "name": "Speed"
+        },
+        {
+            "powerId": 3, 
+            "name": "Healing"
+        },
+        {
+            "powerId": 4, 
+            "name": "Strength"
+        },
+        {
+            "powerId": 5,
+            "name": "Electrokinesis"
+        },
+        {
+            "powerId": 6,
+            "name": "Web-Swinging"
+        },
+        {
+            "powerId": 7,
+            "name": "Gadgetry"
+        },
+        {
+            "powerId": 8,
+            "name": "The Force"
+        }
+    ]
+}

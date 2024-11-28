@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.superhero-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.superhero-item {
+  list-style-type: none;
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  height: 100%;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: auto;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: darkred;
+}
