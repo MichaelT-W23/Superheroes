@@ -1,0 +1,216 @@
+{
+    "Superheroes": [
+        {
+            "superId": 1,
+            "name": "Hulk",
+            "realName": "Bruce Banner",
+            "universe": "Marvel",
+            "yearCreated": 1962,
+            "isVillain": false,
+            "image": "Hulk.jpg",
+            "powers": [
+                { "powerId": 2, "name": "Speed" },
+                { "powerId": 3, "name": "Healing" },
+                { "powerId": 4, "name": "Strength" }
+            ]
+        },
+        {
+            "superId": 2,
+            "name": "Iron Man",
+            "realName": "Tony Stark",
+            "universe": "Marvel",
+            "yearCreated": 1963,
+            "isVillain": false,
+            "image": "IronMan.jpg",
+            "powers": [
+                { "powerId": 1, "name": "Fly" },
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 3,
+            "name": "Thor",
+            "realName": "Thor Odinson",
+            "universe": "Marvel",
+            "yearCreated": 1962,
+            "isVillain": false,
+            "image": "Thor.jpg",
+            "powers": [
+                { "powerId": 1, "name": "Fly" },
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 5, "name": "Electrokinesis" }
+            ]
+        },
+        {
+            "superId": 4,
+            "name": "Wolverine",
+            "realName": "Logan",
+            "universe": "Marvel",
+            "yearCreated": 1974,
+            "isVillain": false,
+            "image": "Wolverine.jpg",
+            "powers": [
+                { "powerId": 3, "name": "Healing" },
+                { "powerId": 4, "name": "Strength" }
+            ]
+        },
+        {
+            "superId": 5,
+            "name": "Spider-Man",
+            "realName": "Peter Parker",
+            "universe": "Marvel",
+            "yearCreated": 1962,
+            "isVillain": false,
+            "image": "Spiderman.jpg",
+            "powers": [
+                { "powerId": 1, "name": "Fly" },
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 6, "name": "Web-Swinging" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 6,
+            "name": "Quicksilver",
+            "realName": "Pietro Maximoff",
+            "universe": "Marvel",
+            "yearCreated": 1964,
+            "isVillain": false,
+            "image": "Quicksilver.jpg",
+            "powers": [
+                { "powerId": 2, "name": "Speed" }
+            ]
+        },
+        {
+            "superId": 7,
+            "name": "Batman",
+            "realName": "Bruce Wayne",
+            "universe": "DC",
+            "yearCreated": 1939,
+            "isVillain": false,
+            "image": "Batman.jpg",
+            "powers": [
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 8,
+            "name": "Flash",
+            "realName": "Barry Allen",
+            "universe": "DC",
+            "yearCreated": 1956,
+            "isVillain": false,
+            "image": "Flash.jpg",
+            "powers": [
+                { "powerId": 2, "name": "Speed" }
+            ]
+        },
+        {
+            "superId": 9,
+            "name": "Green Lantern",
+            "realName": "Hal Jordan",
+            "universe": "DC",
+            "yearCreated": 1959,
+            "isVillain": false,
+            "image": "GreenLantern.jpg",
+            "powers": [
+                { "powerId": 1, "name": "Fly" },
+                { "powerId": 3, "name": "Healing" }
+            ]
+        },
+        {
+            "superId": 10,
+            "name": "Darkseid",
+            "realName": "Uxas",
+            "universe": "DC",
+            "yearCreated": 1970,
+            "isVillain": true,
+            "image": "Darkseid.jpg",
+            "powers": [
+                { "powerId": 3, "name": "Healing" },
+                { "powerId": 4, "name": "Strength" }
+            ]
+        },
+        {
+            "superId": 11,
+            "name": "Nightwing",
+            "realName": "Dick Grayson",
+            "universe": "DC",
+            "yearCreated": 1984,
+            "isVillain": false,
+            "image": "Nightwing.jpg",
+            "powers": [
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 12,
+            "name": "Green Goblin",
+            "realName": "Norman Osborn",
+            "universe": "Marvel",
+            "yearCreated": 1964,
+            "isVillain": true,
+            "image": "GreenGoblin.jpg",
+            "powers": [
+                { "powerId": 1, "name": "Fly" },
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 13,
+            "name": "Captain America",
+            "realName": "Steve Rogers",
+            "universe": "Marvel",
+            "yearCreated": 1941,
+            "isVillain": false,
+            "image": "CaptainAmerica.jpg",
+            "powers": [
+                { "powerId": 4, "name": "Strength" }
+            ]
+        },
+        {
+            "superId": 14,
+            "name": "Deathstroke",
+            "realName": "Slade Wilson",
+            "universe": "DC",
+            "yearCreated": 1980,
+            "isVillain": true,
+            "image": "Slade.jpg",
+            "powers": [
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 15,
+            "name": "Batgirl",
+            "realName": "Barbara Gordon",
+            "universe": "DC",
+            "yearCreated": 1967,
+            "isVillain": false,
+            "image": "batgirl.jpg",
+            "powers": [
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        },
+        {
+            "superId": 16,
+            "name": "Darth Vader",
+            "realName": "How did I get here?",
+            "universe": "Unkown",
+            "yearCreated": 1977,
+            "isVillain": false,
+            "image": "DarthVader.jpg",
+            "powers": [
+                { "powerId": 8, "name": "The Force" },
+                { "powerId": 4, "name": "Strength" },
+                { "powerId": 7, "name": "Gadgetry" }
+            ]
+        }
+    ]
+}
